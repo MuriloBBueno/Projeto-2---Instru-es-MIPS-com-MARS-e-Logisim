@@ -63,49 +63,43 @@
     <wire from="(100,70)" to="(130,70)"/>
     <wire from="(100,110)" to="(130,110)"/>
     <wire from="(180,90)" to="(190,90)"/>
-    <wire from="(150,150)" to="(160,150)"/>
     <wire from="(190,130)" to="(200,130)"/>
-    <wire from="(150,150)" to="(150,170)"/>
+    <wire from="(130,170)" to="(200,170)"/>
     <wire from="(190,90)" to="(190,130)"/>
-    <wire from="(150,170)" to="(200,170)"/>
-    <wire from="(130,170)" to="(150,170)"/>
     <wire from="(250,150)" to="(270,150)"/>
-    <comp lib="6" loc="(135,206)" name="Text">
-      <a name="text" val="A = Detecta se a porta esta aberta "/>
-    </comp>
-    <comp lib="1" loc="(250,150)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(134,247)" name="Text">
-      <a name="text" val="C = chave de ativação do sistema"/>
-    </comp>
-    <comp lib="6" loc="(15,68)" name="Text"/>
-    <comp lib="5" loc="(160,150)" name="LED">
-      <a name="label" val="D"/>
-    </comp>
-    <comp lib="6" loc="(303,126)" name="Text">
-      <a name="text" val="S = Alarme 0/1"/>
-    </comp>
-    <comp lib="6" loc="(54,68)" name="Text"/>
-    <comp lib="6" loc="(44,109)" name="Text"/>
-    <comp lib="0" loc="(130,170)" name="Pin">
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="0" loc="(100,70)" name="Pin">
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="6" loc="(129,227)" name="Text">
-      <a name="text" val="B = Detecta movimentação no ambiente"/>
-    </comp>
     <comp lib="0" loc="(100,110)" name="Pin">
       <a name="label" val="B"/>
     </comp>
     <comp lib="1" loc="(180,90)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(26,234)" name="Text"/>
     <comp lib="5" loc="(270,150)" name="LED">
       <a name="label" val="S"/>
     </comp>
+    <comp lib="6" loc="(135,206)" name="Text">
+      <a name="text" val="A = Detecta se a porta esta aberta "/>
+    </comp>
+    <comp lib="6" loc="(134,247)" name="Text">
+      <a name="text" val="C = chave de ativação do sistema"/>
+    </comp>
+    <comp lib="0" loc="(100,70)" name="Pin">
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="6" loc="(44,109)" name="Text"/>
+    <comp lib="6" loc="(303,126)" name="Text">
+      <a name="text" val="S = Alarme 0/1"/>
+    </comp>
+    <comp lib="0" loc="(130,170)" name="Pin">
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="6" loc="(129,227)" name="Text">
+      <a name="text" val="B = Detecta movimentação no ambiente"/>
+    </comp>
+    <comp lib="6" loc="(15,68)" name="Text"/>
+    <comp lib="1" loc="(250,150)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(54,68)" name="Text"/>
+    <comp lib="6" loc="(26,234)" name="Text"/>
   </circuit>
 </project>
