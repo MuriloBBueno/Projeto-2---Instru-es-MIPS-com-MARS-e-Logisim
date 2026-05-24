@@ -1,3 +1,7 @@
 # Expressão Booleana
 
-S = C (A + B)
+S=!A+B.C
+S=A+!B.C
+S=A+B.C
+RESULT
+S=(A+B)C
